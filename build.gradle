@@ -1,0 +1,4 @@
+plugins {
+    alias(libs.plugins.android.application) // Second declaration (via version catalog)
+    id 'com.google.gms.google-services'
+}
